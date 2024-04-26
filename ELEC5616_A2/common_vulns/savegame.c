@@ -21,10 +21,10 @@ void secret_function()
 struct hero setup_hero()
 {
     struct hero h;
-    h.hp = 3495;
-    h.gold = 3495;
+    h.hp = 30;
+    h.gold = 8;
 
-    scanf("%s", h.name);
+    scanf("%s", h.name); //AAAAAAAAAA\x97\x0D\x00\x00"
 
     return h;
 }
